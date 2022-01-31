@@ -1,0 +1,23 @@
+.home-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-title {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
+.home-news-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}

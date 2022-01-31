@@ -1,0 +1,12 @@
+.error-container {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: tomato;
+}
+
+.error-message {
+  color: black;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

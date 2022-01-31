@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.individual-news-box {
+  width: 600px;
+  background-color: white;
+  border: 10px solid #ebf0ef;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.individual-news-image {
+  width: 600px;
+}
+
+.individual-news-title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.individual-news-description {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  color: gray;
+}
+
+@media (max-width: 650px) {
+  .individual-news-box {
+    width: 400px;
+  }
+
+  .individual-news-image {
+    width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .individual-news-box {
+    width: 300px;
+  }
+
+  .individual-news-image {
+    width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .individual-news-box {
+    width: 200px;
+  }
+
+  .individual-news-title {
+    font-size: 1rem;
+  }
+
+  .individual-news-description {
+    font-size: 0.75rem;
+  }
+
+  .individual-news-image {
+    width: 200px;
+  }
+}
